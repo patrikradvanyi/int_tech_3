@@ -89,17 +89,3 @@ body {
 .navbar__item--cta a:hover {
     color: white;
 }
-
-.container {
-    display: grid;
-    width: 800px;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 100px 300px 100px;
-    background-color: lightseagreen;
-}
-
-.container__item {
-    font-size: 2rem;
-    background-color: violet;
-    border: 2px solid red;
-}
