@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Vend Sans", sans-serif;
+}
+
+.page-section {
+    background-color: #eeeeee;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #666666;
+}
+
+.page-section h2 {
+    font-size: 4rem;
+}
+
+.page-section p {
+    font-size: 2rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3rem 2rem;
+    background-color: white;
+    position: fixed;
+    width: 100vw;
+}
+
+.navbar__brand {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.navbar__list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    /*justify-content: space-between;*/
+    /*width: 400px;*/
+}
+
+.navbar__item {
+    font-size: 1.5rem;
+    margin: 0.3rem 1rem;
+}
+
+.navbar__item a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar__item a:hover {
+    color: #007bee;   
+}
+
+.navbar__item--cta {
+    background-color: #007bee;
+    display: flex;
+    align-items: center;
+    padding: 1.3rem 2rem;
+    border-radius: 50px;
+}
+
+.navbar__item--cta:hover {
+    background-color: #007baa;
+}
+
+.navbar__item--cta a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.navbar__item--cta a:hover {
+    color: white;
+}
+
+.container {
+    display: grid;
+    width: 800px;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 100px 300px 100px;
+    background-color: lightseagreen;
+}
+
+.container__item {
+    font-size: 2rem;
+    background-color: violet;
+    border: 2px solid red;
+}
